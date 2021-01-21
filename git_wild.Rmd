@@ -35,8 +35,13 @@ ggplot(data = diamonds, aes(x = color, y = carat)+
 ## PART B: Make problems
 
 ```{r break-it-1}
+x <- 567
+y <- 123
+abc <-  x/2 +3*y
+
 di <- diamonds %>% 
   filter(carat, color)
+
 ```
 
 ```{r break-it-2}

@@ -36,7 +36,7 @@ ggplot(data = diamonds, aes(x = color, y = carat)+
 
 ```{r break-it-1}
 di <- diamonds %>% 
-  filter(carat)
+  filter(carat, color)
 ```
 
 ```{r break-it-2}

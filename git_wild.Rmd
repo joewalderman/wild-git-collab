@@ -45,9 +45,7 @@ di <- diamonds %>%
 ```
 
 ```{r break-it-2}
-#random code
-ggplot(data = diamonds, aes(x = color))+
-  geom_histogram(bins = 20)
+
 ```
 
 ## END Discussion 3

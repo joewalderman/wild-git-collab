@@ -45,7 +45,11 @@ di <- diamonds %>%
 ```
 
 ```{r break-it-2}
+allison <- 3
+joe <- 5
+casey <- allison + joe
 
+print(casey)
 ```
 
 ## END Discussion 3
